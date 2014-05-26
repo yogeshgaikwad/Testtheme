@@ -1,0 +1,22 @@
+name = test theme
+description = this is a test theme
+version= VERSION
+package= Core
+
+core = 7.x
+
+;CSS
+
+stylesheets[all][] = css/style.css
+
+;Scripts
+
+scripts[] = js/script.js
+
+;Regions
+
+regions[header]= Header
+regions[featured]= Featured	
+regions[content]= Content
+regions[sidebar-right]= Sidebar-right
+regions[footer]= Footer
